@@ -1,0 +1,60 @@
+@page
+@model dotnet_NewProject.Pages_HomePromo.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].PromoType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].DurationStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].Store)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].StoreName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.modelHomePromo) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PromoType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DurationStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Store)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StoreName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

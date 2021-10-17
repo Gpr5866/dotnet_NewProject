@@ -340,3 +340,8 @@ C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\ref\dotnet_NewProject.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.pdb
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.genruntimeconfig.cache
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Create.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Delete.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Details.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Edit.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Index.cshtml.g.cs

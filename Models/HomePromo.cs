@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace HomePromo.Models
+namespace dotnet_NewProject.Models
 {
     public class modelHomePromo
     {
@@ -9,7 +9,7 @@ namespace HomePromo.Models
         public string Description { get; set;}
         public string PromoType {get;set;}
         [DataType(DataType.Date)]
-        public DateTime ReleaseDate {get; set;}
+        public DateTime DurationStartDate {get; set;}
         public string Store {get; set;}
         public string StoreName {get;set;}
     }

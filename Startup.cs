@@ -30,6 +30,9 @@ namespace dotnet_NewProject
 
             services.AddDbContext<dotnet_NewProjectContext>(options =>
                     options.UseSqlite(Configuration.GetConnectionString("dotnet_NewProjectContext")));
+
+            services.AddDbContext<homepromoContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("homepromoContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
