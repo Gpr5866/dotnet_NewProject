@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J3B46ZW8a9U9wL81IbobpdV57JL4/ZSzin8C1Oy5bGQNR/t9Rup6c9sgMt1fS9x5H0pNkWTruTOJZs4LpuEAbw==",
+  "dgSpecHash": "R2j6EH+Q/6MdJ3pBXTHD//1Sy8oLQrkZziv7NcKlubUWdeVYNnvmFceSK1xZcE8b3jvUv1J+i0ljxxemUUf1vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicky\\Desktop\\dotnet_NewProject\\dotnet_NewProject.csproj",
   "expectedPackageFiles": [
@@ -59,7 +59,7 @@
     "C:\\Users\\nicky\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.0\\microsoft.visualstudio.web.codegenerators.mvc.5.0.0.nupkg.sha512",
     "C:\\Users\\nicky\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\nicky\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\nicky\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\nicky\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\nicky\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\nicky\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\nicky\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
