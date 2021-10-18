@@ -4,6 +4,14 @@
 @{
     ViewData["Title"] = "Create";
 }
+<style>
+    .styleButton {
+        border: none;
+        padding: 6px;
+        text-align: center;
+        border-radius: 4px;
+    }
+</style>
 
 <h1>Create</h1>
 
@@ -11,7 +19,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.ID" class="control-label"></label>
@@ -25,13 +33,57 @@
             </div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.PromoType" class="control-label"></label>
-                <input asp-for="modelHomePromo.PromoType" class="form-control" />
+                @* <input asp-for="modelHomePromo.PromoType" class="form-control" /> *@
+                <select asp-for="modelHomePromo.PromoType" class="form-control">
+                    <option value="" selected disabled>Pilih Promo Type</option>
+                    <option value="Simple Discount">Simple Discount</option>
+                    <option value="Complete Discount">Complete Discount</option>
+                </select>
                 <span asp-validation-for="modelHomePromo.PromoType" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <div class="row">
+                    <label asp-for="modelHomePromo.ValueType" class="control-label ml-3">Value Type</label>
+                </div>
+                <div class="row">
+                    <div class="column col-md-6">
+                        <select id="selectValueType" class="form-control" onchange="Update();">
+                            <option value="" selected disabled>Pilih Value Type</option>
+                            <option value="Percentage">Percentage</option>
+                            <option value="Amount">Amount</option>
+                        </select>
+                    </div>
+                    <div class="column col-md-6">
+                        <input asp-for="modelHomePromo.ValueType" id="inputValueType" class="form-control" type="number"
+                            max="" />
+                        <span asp-validation-for="modelHomePromo.ValueType" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
                 <label asp-for="modelHomePromo.DurationStartDate" class="control-label"></label>
-                <input asp-for="modelHomePromo.DurationStartDate" class="form-control" />
+                <input id="dateStart" max="" asp-for="modelHomePromo.DurationStartDate" class="form-control" />
                 <span asp-validation-for="modelHomePromo.DurationStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="modelHomePromo.DurationEndDate" class="control-label"></label>
+                <input id="dateEnd" min="" asp-for="modelHomePromo.DurationEndDate" class="form-control" />
+                <span asp-validation-for="modelHomePromo.DurationEndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="row ml-3">
+                        <label class="control-label">Upload File</label>
+                    </div>
+                    <div class="row ml-2">
+                        <div class="column col-md-9">
+                            <input asp-for="modelHomePromo.HasilFile" id="uploadTxt" type="file" />
+                            <span asp-validation-for="modelHomePromo.HasilFile" class="text-danger"></span>
+                        </div>
+                        <div class="column col-md-3">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.Store" class="control-label"></label>
@@ -49,11 +101,51 @@
         </form>
     </div>
 </div>
+<script>
+    function Update() {
+        var select = document.getElementById('selectValueType');
+        var option = select.options[select.selectedIndex];
+        var value = option.value;
+        if (value == "Percentage") {
+            document.getElementById('inputValueType').setAttribute("max", 100);
+        } else {
+            document.getElementById('inputValueType').setAttribute("max", 999999999);
+        }
+    };
+</script>
+
+@* <script>
+    function doUpload() {
+        let data = document.getElementById("uploadTxt").files[0];
+        let entry = document.getElementById("uploadTxt").files[0];
+        console.log('doupload', entry, data)
+        fetch('uploads/' + encodeURIComponent(entry.name), { method: 'POST', body: data });
+        alert('your file has been uploaded');
+       
+    };
+</script> *@
+
+<script type="text/javascript">
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1; //January is 0!
+    var yyyy = today.getFullYear();
+    if (dd < 10) {
+        dd = '0' + dd;
+    }
+    if (mm < 10) {
+        mm = '0' + mm;
+    }
+    today = yyyy + '-' + mm + '-' + dd;
+    document.getElementById("dateStart").setAttribute("max", today);
+    document.getElementById("dateEnd").setAttribute("min", today);
+</script>
+
 
 <div>
     <a asp-page="Index">Back to List</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -169,17 +169,25 @@ C:\Users\Developer\Documents\Nicky\Project Kantor\dotnet_NewProject\dotnet_NewPr
 C:\Users\Developer\Documents\Nicky\Project Kantor\dotnet_NewProject\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Movies\Details.cshtml.g.cs
 C:\Users\Developer\Documents\Nicky\Project Kantor\dotnet_NewProject\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Movies\Edit.cshtml.g.cs
 C:\Users\Developer\Documents\Nicky\Project Kantor\dotnet_NewProject\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Movies\Index.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.pdb
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.Views.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\appsettings.json
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.exe
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.deps.json
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.runtimeconfig.json
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.runtimeconfig.dev.json
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\ref\dotnet_NewProject.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.pdb
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.Views.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.Views.pdb
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Humanizer.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -190,13 +198,8 @@ C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.CodeAnalysis
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.Identity.Client.dll
@@ -214,10 +217,6 @@ C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.VisualStudio
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.core.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\System.Composition.Convention.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -302,7 +301,6 @@ C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\linux-x86\nat
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -321,6 +319,11 @@ C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.TagH
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.TagHelpers.output.cache
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.RazorCoreGenerate.cache
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Create.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Delete.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Details.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Edit.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Index.cshtml.g.cs
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Movies\Create.cshtml.g.cs
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\Movies\Delete.cshtml.g.cs
@@ -340,8 +343,5 @@ C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\ref\dotnet_NewProject.dll
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.pdb
 C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\dotnet_NewProject.genruntimeconfig.cache
-C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Create.cshtml.g.cs
-C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Delete.cshtml.g.cs
-C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Details.cshtml.g.cs
-C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Edit.cshtml.g.cs
-C:\Users\nicky\Desktop\dotnet_NewProject\obj\Debug\net5.0\Razor\Pages\HomePromo\Index.cshtml.g.cs
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\ref\dotnet_NewProject.dll
+C:\Users\nicky\Desktop\dotnet_NewProject\bin\Debug\net5.0\dotnet_NewProject.Views.pdb

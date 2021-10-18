@@ -20,7 +20,16 @@
                 @Html.DisplayNameFor(model => model.modelHomePromo[0].PromoType)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].ValueType)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.modelHomePromo[0].DurationStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].DurationEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.modelHomePromo[0].HasilFile)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.modelHomePromo[0].Store)
@@ -41,7 +50,16 @@
                 @Html.DisplayFor(modelItem => item.PromoType)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ValueType)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.DurationStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DurationEndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasilFile)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Store)

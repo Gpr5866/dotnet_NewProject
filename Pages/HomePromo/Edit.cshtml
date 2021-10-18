@@ -21,13 +21,36 @@
             </div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.PromoType" class="control-label"></label>
-                <input asp-for="modelHomePromo.PromoType" class="form-control" />
+                @* <input asp-for="modelHomePromo.PromoType" class="form-control" /> *@
+                <select asp-for="modelHomePromo.PromoType" class="form-control">
+                    <option value="" selected disabled></option>
+                    <option value="Simple Discount">Simple Discount</option>
+                    <option value="Complete Discount">Complete Discount</option>
+                </select>
                 <span asp-validation-for="modelHomePromo.PromoType" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <div class="column col-md-6">
+                    <label asp-for="modelHomePromo.ValueType" class="control-label">Value Type</label>
+                    <select id="selectValueType" class="form-control">
+                        <option value="" selected disabled></option>
+                        <option value="Percentage">Percentage</option>
+                        <option value="Amount">Amount</option>
+                    </select>
+                </div>
+                <div class="column col-md-6">
+                    <input asp-for="modelHomePromo.ValueType" id="inputValueType" class="form-control" type="number" max="" />
+                </div>
             </div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.DurationStartDate" class="control-label"></label>
                 <input asp-for="modelHomePromo.DurationStartDate" class="form-control" />
                 <span asp-validation-for="modelHomePromo.DurationStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="modelHomePromo.DurationEndDate" class="control-label"></label>
+                <input asp-for="modelHomePromo.DurationEndDate" class="form-control" />
+                <span asp-validation-for="modelHomePromo.DurationEndDate" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="modelHomePromo.Store" class="control-label"></label>
@@ -45,6 +68,29 @@
         </form>
     </div>
 </div>
+
+<script>
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1; //January is 0!
+    var yyyy = today.getFullYear();
+    if (dd < 10) {
+        dd = '0' + dd;
+    }
+    if (mm < 10) {
+        mm = '0' + mm;
+    }
+    today = yyyy + '-' + mm + '-' + dd;
+    document.getElementById("dateStart").setAttribute("max", today);
+    document.getElementById("dateEnd").setAttribute("min", today);
+
+    var valueType = document.getElementById("selectValueType");
+    if(valueType == "Percentage"){
+        document.getElementById("inputValueType").setAttribute("max", 100);
+    } else {
+        document.getElementById("inputValueType").setAttribute("max", 999999999);
+    }
+</script>
 
 <div>
     <a asp-page="./Index">Back to List</a>
