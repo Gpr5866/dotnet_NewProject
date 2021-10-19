@@ -4,6 +4,8 @@
 @{
     ViewData["Title"] = "Create";
 }
+
+
 <style>
     .styleButton {
         border: none;
@@ -85,18 +87,44 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group">
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Check</th>
+                            <th>Store</th>
+                            <th>Store Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            @foreach (var item in Model.StoreList)
+                            {
+                                <tr>
+                                    <td><input asp-for="modelHomePromo.Store" name="Store" type="checkbox" value="@item.Store"/></td>
+                                    <td>@item.Store</td>
+                                    <td>@item.StoreName</td>
+                                </tr>
+                                
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            @* <div class="form-group">
                 <label asp-for="modelHomePromo.Store" class="control-label"></label>
                 <input asp-for="modelHomePromo.Store" class="form-control" />
                 <span asp-validation-for="modelHomePromo.Store" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="modelHomePromo.StoreName" class="control-label"></label>
                 <input asp-for="modelHomePromo.StoreName" class="form-control" />
                 <span asp-validation-for="modelHomePromo.StoreName" class="text-danger"></span>
-            </div>
+            </div> *@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="reset" value="Cancel" class="btn btn-primary"/>
             </div>
         </form>
     </div>

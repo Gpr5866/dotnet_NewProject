@@ -20,4 +20,11 @@ namespace dotnet_NewProject.Models
         public string Store {get; set;}
         public string StoreName {get;set;}
     }
+
+    public class modelStoreList {
+        [Key]
+        public string Store {get;set;}
+        public string StoreName {get;set;}
+    }
+
 }

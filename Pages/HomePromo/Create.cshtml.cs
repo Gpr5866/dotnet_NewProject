@@ -18,14 +18,20 @@ namespace dotnet_NewProject.Pages_HomePromo
             _context = context;
         }
 
+
+        [BindProperty]
+        public IList<modelStoreList> StoreList { get; set;}
+
         public IActionResult OnGet()
         {
+            StoreList = _context.modelStoreList.ToList();
             return Page();
         }
 
         [BindProperty]
         public modelHomePromo modelHomePromo { get; set; }
-
+        
+        
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
